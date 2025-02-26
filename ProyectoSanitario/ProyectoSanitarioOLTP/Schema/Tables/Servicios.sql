@@ -4,5 +4,5 @@ CREATE TABLE [san].[Servicios]
     [NombreCompleto] NVARCHAR(100) NOT NULL,
     [Comentario] NVARCHAR(255),
     CONSTRAINT [PK_pidServicio] PRIMARY KEY ([idServicio])
-);
+  );
 

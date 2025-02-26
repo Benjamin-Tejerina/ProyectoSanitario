@@ -5,4 +5,4 @@ CREATE TABLE [san].[Medicos] (
     [codHospital] INT,
     [EsDirector] BIT DEFAULT 0, -- 1 si es director, 0 si no
     FOREIGN KEY (codHospital) REFERENCES Hospitales(codHospital)
-);
+  );
