@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="af1f088e-b9e1-4ad5-aa79-4b1b3e31cca7" ChangeDateTime="02/26/2025 00:04:59">
+    <Property Name="ElementName" Value="[dbo].[paciente].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[paciente]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="dni" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f7503624-240d-454b-b367-440630d2d23a" ChangeDateTime="02/26/2025 00:12:26">
+    <Property Name="ElementName" Value="[dbo].[PK_paciente]" />
+    <Property Name="ElementType" Value="SqlPrimaryKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[paciente]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[PK_paciente_dni]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5c852968-c774-4291-9867-2e47707fd192" ChangeDateTime="02/26/2025 00:16:33">
+    <Property Name="ElementName" Value="[dbo].[hospital].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[hospital]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="cod_hospital" />
+  </Operation>
+</Operations>
