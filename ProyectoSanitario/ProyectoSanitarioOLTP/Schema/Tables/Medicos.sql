@@ -1,5 +1,5 @@
 CREATE TABLE [san].[Medicos] (
-    [DNI] NVARCHAR(10) PRIMARY KEY,
+    [DNI] NVARCHAR(10) ,
     [ApellidosNombre] NVARCHAR(100) NOT NULL,
     [FechaNacimiento] DATE,
     [codHospital] INT,
